@@ -1,6 +1,6 @@
 # Neural Networks
 
-All the following implenetations are built using [TensorFlow](https://www.tensorflow.org/). The datasets used are MNIST and CIFAR-10.
+All the following implenetations are built using [TensorFlow](https://www.tensorflow.org/). The datasets used are [MNIST](http://yann.lecun.com/exdb/mnist/) and [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html).
 
 - [Radial Basis Function Network](https://en.wikipedia.org/wiki/Radial_basis_function_network)
     - Radial basis functions are means to approximate multivariable (also called multivariate) functions by linear combinations of terms based on a single univariate function (the radial basis function). This is radialised so that in can be used in more than one dimension. They are usually applied to approximate functions or data (Powell 1981, Cheney 1966, Davis 1975) which are only known at a finite number of points (or too difficult to evaluate otherwise), so that then evaluations of the approximating function can take place often and efficiently.
