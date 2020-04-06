@@ -1,10 +1,11 @@
 # Neural Networks
 
-All the following implenetations are built using [TensorFlow](https://www.tensorflow.org/). The datasets used are [MNIST](http://yann.lecun.com/exdb/mnist/) and [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html).
+All the following implementations are built using [TensorFlow](https://www.tensorflow.org/). The datasets used are [MNIST](http://yann.lecun.com/exdb/mnist/) and [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html).
 
 - [Radial Basis Function Network](https://en.wikipedia.org/wiki/Radial_basis_function_network)
     - Radial basis functions are means to approximate multivariable (also called multivariate) functions by linear combinations of terms based on a single univariate function (the radial basis function). This is radialised so that in can be used in more than one dimension. They are usually applied to approximate functions or data (Powell 1981, Cheney 1966, Davis 1975) which are only known at a finite number of points (or too difficult to evaluate otherwise), so that then evaluations of the approximating function can take place often and efficiently.
 - [Hopfield Network](https://en.wikipedia.org/wiki/Hopfield_network)
+    - The implementations I used for the learning segment were the [Hebbian](https://en.wikipedia.org/wiki/Hopfield_network#Hebbian_learning_rule_for_Hopfield_networks) and [Storkey](https://en.wikipedia.org/wiki/Hopfield_network#The_Storkey_learning_rule) Learning rules.
     - recurrent artificial neural network popularized by John Hopfield in 1982, but described earlier by Little in 1974. Hopfield nets serve as content-addressable ("associative") memory systems with binary threshold nodes. They are guaranteed to converge to a local minimum and, therefore, may converge to a false pattern (wrong local minimum) rather than the stored pattern (expected local minimum)[citation needed]. Hopfield networks also provide a model for understanding human memory.
 - [Convolutional Neural Network](https://en.wikipedia.org/wiki/Convolutional_neural_network)
     - In deep learning, a convolutional neural network (CNN, or ConvNet) is a class of deep neural networks, most commonly applied to analyzing visual imagery. They are also known as shift invariant or space invariant artificial neural networks (SIANN), based on their shared-weights architecture and translation invariance characteristics. They have applications in image and video recognition, recommender systems, image classification, medical image analysis, natural language processing,and financial time series.
