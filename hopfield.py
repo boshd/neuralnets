@@ -1,6 +1,5 @@
 '''
 Hopfield Network
-
 @author: Kareem Arab
 
 refs //
