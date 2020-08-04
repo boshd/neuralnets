@@ -205,10 +205,6 @@ for centroid_size in [50, 60, 70, 80, 90, 100]:
     network.run()
     f = network.getFoldAcc()
 
-    # plt.plot([1,2,3,4,5], f)
-    # plt.title('Fold Accuracy')
-    # plt.show()
-
     centroid_accuracies.append(np.sum(f) / len(f))
 
 plt.plot([50, 60, 70, 80, 90, 100], centroid_accuracies)
